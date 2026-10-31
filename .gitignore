@@ -1,3 +1,6 @@
+# 별도 저장소로 공개하는 두 번째 강의 패키지
+learn-robot-vc-hgd/
+
 # 빌드 도구·중간물
 forge/deck/node_modules/
 forge/deck/render/

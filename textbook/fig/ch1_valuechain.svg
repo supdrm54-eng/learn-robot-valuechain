@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR',sans-serif">
+  <rect width="1200" height="660" fill="#FFFFFF"/>
+  <text x="40" y="52" font-size="30" font-weight="700" fill="#1B2C5E">로봇 밸류체인 지도 — 세 층과 부품사의 출발점</text>
+  <text x="40" y="86" font-size="18" fill="#6B7280">가치 이동 방향: 하드웨어 → 소프트웨어·AI → 운영·서비스</text>
+
+  <!-- value-shift arrow -->
+  <defs>
+    <marker id="ah" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#2E5BAA"/>
+    </marker>
+  </defs>
+  <line x1="60" y1="118" x2="1130" y2="118" stroke="#2E5BAA" stroke-width="4" marker-end="url(#ah)"/>
+  <text x="600" y="110" font-size="16" fill="#2E5BAA" text-anchor="middle">장기적으로 가치가 오른쪽으로 이동한다</text>
+
+  <!-- Layer 1: hardware -->
+  <rect x="40" y="140" width="460" height="440" rx="14" fill="#EAF1FB" stroke="#2E5BAA" stroke-width="2"/>
+  <text x="62" y="180" font-size="24" font-weight="700" fill="#1B2C5E">① 하드웨어 — 로봇의 몸</text>
+  <text x="62" y="208" font-size="17" fill="#3B4252">지금 가장 큰 비용·부가가치</text>
+
+  <rect x="62" y="226" width="416" height="214" rx="10" fill="#FFF4E5" stroke="#C77700" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="78" y="254" font-size="17" font-weight="700" fill="#C77700">부품사의 출발점 — 자동차 기술과 뿌리가 같은 곳</text>
+  <rect x="78" y="268" width="186" height="74" rx="8" fill="#1B2C5E"/>
+  <text x="171" y="302" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">액추에이터</text>
+  <text x="171" y="328" font-size="15" fill="#CADCFC" text-anchor="middle">근육·관절</text>
+  <rect x="276" y="268" width="186" height="74" rx="8" fill="#FFFFFF" stroke="#1B2C5E" stroke-width="2"/>
+  <text x="369" y="312" font-size="20" font-weight="700" fill="#1B2C5E" text-anchor="middle">모터</text>
+  <rect x="78" y="352" width="186" height="74" rx="8" fill="#FFFFFF" stroke="#1B2C5E" stroke-width="2"/>
+  <text x="171" y="396" font-size="20" font-weight="700" fill="#1B2C5E" text-anchor="middle">감속기</text>
+  <rect x="276" y="352" width="186" height="74" rx="8" fill="#FFFFFF" stroke="#1B2C5E" stroke-width="2"/>
+  <text x="369" y="388" font-size="20" font-weight="700" fill="#1B2C5E" text-anchor="middle">센서</text>
+  <text x="369" y="412" font-size="15" fill="#6B7280" text-anchor="middle">눈·귀·피부</text>
+
+  <rect x="62" y="456" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#9AA7BD" stroke-width="1.5"/>
+  <text x="162" y="496" font-size="19" fill="#3B4252" text-anchor="middle">배터리</text>
+  <rect x="278" y="456" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#9AA7BD" stroke-width="1.5"/>
+  <text x="378" y="496" font-size="19" fill="#3B4252" text-anchor="middle">골격 · 손(엔드이펙터)</text>
+  <text x="62" y="556" font-size="16" fill="#6B7280">자동차와 같은 줄: 움직임(모터·구동계) · 동력(배터리)</text>
+
+  <!-- Layer 2: software/AI -->
+  <rect x="530" y="140" width="300" height="440" rx="14" fill="#E6F5F0" stroke="#3FA36F" stroke-width="2"/>
+  <text x="550" y="180" font-size="24" font-weight="700" fill="#1B2C5E">② 소프트웨어·AI</text>
+  <text x="550" y="208" font-size="17" fill="#3B4252">두뇌 — 가치가 옮겨 가는 곳</text>
+  <rect x="550" y="232" width="260" height="66" rx="8" fill="#FFFFFF" stroke="#3FA36F" stroke-width="2"/>
+  <text x="680" y="272" font-size="19" fill="#1B2C5E" text-anchor="middle">동작 계획</text>
+  <rect x="550" y="312" width="260" height="66" rx="8" fill="#FFFFFF" stroke="#3FA36F" stroke-width="2"/>
+  <text x="680" y="352" font-size="19" fill="#1B2C5E" text-anchor="middle">상황 인식</text>
+  <rect x="550" y="392" width="260" height="66" rx="8" fill="#FFFFFF" stroke="#3FA36F" stroke-width="2"/>
+  <text x="680" y="432" font-size="19" fill="#1B2C5E" text-anchor="middle">학습 · 모션 제어</text>
+  <text x="550" y="556" font-size="16" fill="#6B7280">자동차와 같은 줄: 두뇌(주행 판단 AI)</text>
+
+  <!-- Layer 3: operations -->
+  <rect x="860" y="140" width="300" height="440" rx="14" fill="#F4F5F9" stroke="#6B7280" stroke-width="2"/>
+  <text x="880" y="180" font-size="24" font-weight="700" fill="#1B2C5E">③ 운영·서비스</text>
+  <text x="880" y="208" font-size="17" fill="#3B4252">로봇이 늘수록 커지는 층</text>
+  <rect x="880" y="232" width="260" height="56" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="1010" y="268" font-size="19" fill="#1B2C5E" text-anchor="middle">설치</text>
+  <rect x="880" y="300" width="260" height="56" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="1010" y="336" font-size="19" fill="#1B2C5E" text-anchor="middle">유지보수</text>
+  <rect x="880" y="368" width="260" height="56" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="1010" y="404" font-size="19" fill="#1B2C5E" text-anchor="middle">데이터</text>
+  <rect x="880" y="436" width="260" height="56" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="1010" y="472" font-size="19" fill="#1B2C5E" text-anchor="middle">구독(RaaS)</text>
+
+  <text x="40" y="626" font-size="15" fill="#6B7280">출처: KMA 로봇과 스마트팩토리 특강 덱 — 로봇 가치사슬 세 층·로봇 해부·자동차↔휴머노이드 비교 [S6], BofA Institute Physical AI Part 2 (2026-03-12) [S5]</text>
+</svg>

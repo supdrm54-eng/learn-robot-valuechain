@@ -1,0 +1,39 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>로봇 밸류체인 대시보드</title><style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--muted:#6b6b66;--navy:#1B2C5E;--blue:#2E5BAA;--border:#e3e2dd;--soft:#EAF1FB}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161615;--card:#21211f;--ink:#ecebe6;--muted:#a3a29c;--navy:#9db8e8;--blue:#7fb0e0;--border:#33332f;--soft:#1f2a3a}}
+:root[data-theme="dark"]{--bg:#161615;--card:#21211f;--ink:#ecebe6;--muted:#a3a29c;--navy:#9db8e8;--blue:#7fb0e0;--border:#33332f;--soft:#1f2a3a}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Malgun Gothic","Apple SD Gothic Neo",sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 48px} h1{font-size:1.5rem;margin:4px 0} h2{font-size:1.1rem;margin:28px 0 10px}
+.note{font-size:.8rem;padding:2px 8px;border:1px solid var(--border);border-radius:99px;color:var(--muted)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;min-width:0}
+.card b{display:block;font-size:1.6rem;color:var(--navy)} .card span{color:var(--muted)} .card small{display:block;color:var(--muted);margin-top:4px}
+.bars{display:flex;gap:28px;align-items:flex-end;height:220px;padding:10px 0} .bar{width:90px;background:var(--navy);border-radius:4px 4px 0 0}
+.bar.up{background:transparent;border:2px dashed var(--blue)} .col{text-align:center;font-size:.9rem}
+.wrap{overflow-x:auto} table{width:100%;border-collapse:collapse;font-size:.92rem} th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border)} th{color:var(--muted);font-weight:500}
+footer{margin-top:28px;font-size:.84rem;color:var(--muted)} a{color:var(--blue)}
+</style></head><body><main>
+<span class="note">공개 자료 기반 · 연도 뒤 E는 추정</span>
+<h1>로봇 밸류체인 대시보드</h1>
+<p>자동차 부품사 관점 — 시장은 얼마나 크고, 돈은 어디에 몰리며, 어디로 들어가나</p>
+<h2>시장 카드</h2><div class="grid">
+<div class="card"><b>542,000</b><span>대</span><small>세계 산업용 로봇 신규 설치 (2024) [S1]</small></div>
+<div class="card"><b>4,664,000</b><span>대</span><small>세계 가동 대수 (2024, +9%) [S1]</small></div>
+<div class="card"><b>1,012</b><span>대/종업원 1만 명</span><small>한국 로봇 밀도 (2022 데이터) [S3]</small></div>
+<div class="card"><b>5.6%</b><span></span><small>한국 신규 설치의 세계 비중 (2024, 계산값) [S1]</small></div>
+</div>
+<h2>휴머노이드 1대 BOM (BofA 추정, 중국 생산 기준)</h2>
+<div class="card"><div class="bars">
+<div class="col">$35,000<div class="bar" style="height:180px"></div>2025 [S5]</div>
+<div class="col">below $17,000<div class="bar up" style="height:87px"></div>2030E (상한) [S5]</div>
+</div><p>하락률 51.4% 이상 · 연평균 13.4% 이상 하락 (계산값)</p></div>
+<h2>휴머노이드 연간 출하 (BofA 추정)</h2>
+<div class="card wrap"><table><tr><th>연도</th><th>출하</th><th>출처</th></tr>
+<tr><td>2025E</td><td>20,000대</td><td>[S5]</td></tr><tr><td>2030E</td><td>1.2 million대</td><td>[S5]</td></tr><tr><td>2035E</td><td>10 million대</td><td>[S5]</td></tr></table>
+<p>2025E → 2030E 60배 · 2025E → 2035E 연평균 86.2% (계산값, BofA 원문 86%와 일치)</p></div>
+<h2>진입 판단표 — 현대모비스 사례</h2>
+<div class="card wrap"><p>현대차그룹 2028년 연 30,000대 생산 체계 목표 중 자사 공장 투입 25,000대 = 83.3% (발표된 목표) [S13]</p>
+<table><tr><th>기준</th><th>사례</th><th>출처</th></tr><tr><td>① 기술 거리</td><td>자동차 부품 → 로봇 액추에이터. 구체적 기술 이전 내용은 공개 자료로 확인되지 않음</td><td>[S9]</td></tr><tr><td>② 원가 비중</td><td>공급 품목 액추에이터가 로봇 원가에서 가장 큰 몫</td><td>[S5][S9]</td></tr><tr><td>③ 첫 고객</td><td>같은 그룹 보스턴다이내믹스 — 로보틱스 첫 고객</td><td>[S9][S18]</td></tr><tr><td>④ 양산 일정</td><td>아틀라스 양산 시점에 맞춘 공급. 수요 쪽은 2028년 연 30,000대 생산 체계 목표(발표)</td><td>[S9][S13]</td></tr><tr><td>⑤ 원가 하락 대응</td><td>공개 자료로 확인되지 않음</td><td>—</td></tr></table></div>
+<footer>숫자: 교재 『로봇 밸류체인 — 자동차 부품사의 진입 기회』 검증 자료(facts.csv). 출처 번호는 data/sources.md. 회사 내부 판단표는 이 페이지에 없다. 만든 방법: Claude Code 수업 learn-robot-valuechain.</footer>
+</main></body></html>

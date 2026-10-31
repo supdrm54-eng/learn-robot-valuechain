@@ -1,0 +1,11 @@
+{
+  "slug": "learn-robot-valuechain",
+  "answer": {
+    "skill": "learn-robot-valuechain",
+    "workdir": "assets/lab",
+    "copy_to": "data",
+    "cmd": "py -3 -I -X utf8 {answers}/build_answers.py",
+    "expected": "assets/answers/expected.json"
+  },
+  "note": "cmd 는 이 PC(Windows)에 맞춘 것. macOS·Linux 에서는 python3 -I {answers}/build_answers.py"
+}

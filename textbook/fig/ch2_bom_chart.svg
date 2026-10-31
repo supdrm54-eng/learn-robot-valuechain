@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR',sans-serif">
+  <rect width="1200" height="620" fill="#FFFFFF"/>
+  <text x="40" y="52" font-size="30" font-weight="700" fill="#1B2C5E">휴머노이드 원가 — 얼마나 싸지고, 돈은 어디에 몰리나</text>
+  <text x="40" y="86" font-size="18" fill="#6B7280">BofA Global Research 추정 · 단위와 기준연도는 막대 옆에 표기</text>
+
+  <!-- Panel A: BOM per unit (F06, F07). scale: 40,000 USD = 400px, baseline y=520 -->
+  <rect x="40" y="110" width="520" height="440" rx="12" fill="#F4F5F9"/>
+  <text x="62" y="148" font-size="21" font-weight="700" fill="#1B2C5E">A. 휴머노이드 1대 BOM(중국 생산 기준)</text>
+  <line x1="100" y1="520" x2="520" y2="520" stroke="#9AA7BD" stroke-width="1.5"/>
+  <!-- 35,000 -> height 300 (scale 1 px = 116.7 USD) -->
+  <rect x="150" y="220" width="120" height="300" fill="#1B2C5E"/>
+  <text x="210" y="206" font-size="22" font-weight="700" fill="#1B2C5E" text-anchor="middle">$35,000</text>
+  <text x="210" y="546" font-size="18" fill="#3B4252" text-anchor="middle">2025</text>
+  <!-- 17,000 -> height 170 (상한으로 표시) -->
+  <rect x="340" y="374" width="120" height="146" fill="#FFFFFF" stroke="#2E5BAA" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="400" y="342" font-size="22" font-weight="700" fill="#2E5BAA" text-anchor="middle">below $17,000</text>
+  <text x="400" y="364" font-size="15" fill="#6B7280" text-anchor="middle">(점선 = 상한값)</text>
+  <text x="400" y="546" font-size="18" fill="#3B4252" text-anchor="middle">2030E</text>
+  <text x="62" y="538" font-size="14" fill="#6B7280">USD/대</text>
+
+  <!-- Panel B: BOM share 2030E (F11, F12, F13, F09). scale: 30% = 360px -->
+  <rect x="590" y="110" width="570" height="440" rx="12" fill="#EAF1FB"/>
+  <text x="612" y="148" font-size="21" font-weight="700" fill="#1B2C5E">B. 모듈별 BOM 비중 상위 3개 (2030E)</text>
+  <text x="612" y="200" font-size="18" fill="#3B4252">리니어 액추에이터</text>
+  <rect x="612" y="212" width="324" height="44" fill="#1B2C5E"/>
+  <text x="948" y="242" font-size="22" font-weight="700" fill="#1B2C5E">27%</text>
+  <text x="612" y="296" font-size="18" fill="#3B4252">로터리 액추에이터</text>
+  <rect x="612" y="308" width="288" height="44" fill="#1B2C5E"/>
+  <text x="912" y="338" font-size="22" font-weight="700" fill="#1B2C5E">24%</text>
+  <text x="612" y="392" font-size="18" fill="#3B4252">손(dexterous hands)</text>
+  <rect x="612" y="404" width="228" height="44" fill="#2E5BAA"/>
+  <text x="852" y="434" font-size="22" font-weight="700" fill="#2E5BAA">19%</text>
+  <rect x="612" y="472" width="526" height="58" rx="8" fill="#FFFFFF" stroke="#1B2C5E" stroke-width="1.5"/>
+  <text x="628" y="508" font-size="18" fill="#1B2C5E"><tspan font-weight="700">액추에이터 전체: more than 50%</tspan> (2030E, BofA)</text>
+
+  <text x="40" y="584" font-size="15" fill="#6B7280">출처: Bank of America Institute, Physical AI Part 2 (2026-03-12) — BofA Global Research 추정 [S5]. facts.csv F06·F07·F09·F11·F12·F13.</text>
+  <text x="40" y="606" font-size="15" fill="#6B7280">B의 세 비중은 BofA 고유 추정(교차확인 불가)이며, 원본 강의 덱은 손을 단일 부위 최대 약 30%로 본다 [S6].</text>
+</svg>

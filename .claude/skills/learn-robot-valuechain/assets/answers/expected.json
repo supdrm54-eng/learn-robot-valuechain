@@ -1,0 +1,84 @@
+{
+  "values": {
+    "lab_file_count": {
+      "value": 3,
+      "decimals": 0,
+      "block": 0
+    },
+    "facts_rows": {
+      "value": 20,
+      "decimals": 0,
+      "block": 0
+    },
+    "world_installs": {
+      "value": 542000.0,
+      "decimals": 0,
+      "block": 1
+    },
+    "world_stock": {
+      "value": 4664000.0,
+      "decimals": 0,
+      "block": 1
+    },
+    "korea_density": {
+      "value": 1012.0,
+      "decimals": 0,
+      "block": 1
+    },
+    "korea_share": {
+      "value": 5.6,
+      "decimals": 1,
+      "block": 1
+    },
+    "bom_drop_pct": {
+      "value": 51.4,
+      "decimals": 1,
+      "block": 2
+    },
+    "bom_cagr": {
+      "value": 13.4,
+      "decimals": 1,
+      "block": 2
+    },
+    "ship_multiple": {
+      "value": 60,
+      "decimals": 0,
+      "block": 2
+    },
+    "ship_cagr": {
+      "value": 86.2,
+      "decimals": 1,
+      "block": 2
+    },
+    "confirmed_count": {
+      "value": 16,
+      "decimals": 0,
+      "block": 3
+    },
+    "conditional_count": {
+      "value": 4,
+      "decimals": 0,
+      "block": 3
+    },
+    "conditional_ids": {
+      "value": "F08·F11·F12·F13",
+      "decimals": null,
+      "block": 3
+    },
+    "hmg_capacity": {
+      "value": 30000.0,
+      "decimals": 0,
+      "block": 4
+    },
+    "hmg_inhouse": {
+      "value": 25000.0,
+      "decimals": 0,
+      "block": 4
+    },
+    "hmg_inhouse_share": {
+      "value": 83.3,
+      "decimals": 1,
+      "block": 4
+    }
+  }
+}

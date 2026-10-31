@@ -20,7 +20,7 @@ npx skills add supdrm54-eng/learn-robot-valuechain --agent claude-code --global 
 | 결과물 | 파일 |
 |---|---|
 | 교재 3장 | [Robot_Value_Chain_Textbook.pdf](Robot_Value_Chain_Textbook.pdf) · [.docx](Robot_Value_Chain_Textbook.docx) · 원고 [textbook/](textbook/) |
-| 강의 덱 22장 | [Robot_Value_Chain_Deck.pdf](Robot_Value_Chain_Deck.pdf) · [.pptx](Robot_Value_Chain_Deck.pptx) |
+| 강의 덱 22장 | [docs/Robot_Value_Chain_Deck.pdf](docs/Robot_Value_Chain_Deck.pdf) · [.pptx](docs/Robot_Value_Chain_Deck.pptx) |
 | 강의 스킬 | [.claude/skills/learn-robot-valuechain/](.claude/skills/learn-robot-valuechain/) |
 | 검증 자료 | [forge/facts.csv](forge/facts.csv)(공개 숫자 20개: 확인 16 · 조건부 4) · [forge/sources.md](forge/sources.md) |
 
@@ -59,6 +59,7 @@ npx skills add supdrm54-eng/learn-robot-valuechain --agent claude-code --global 
 | 날짜 | 바뀐 점 |
 |---|---|
 | 2026-10-31 | 첫 판 — 교재 3장, 덱 22장, 강의 스킬(블록 6개·퀴즈 10문항·정답 수치 16개 검증) |
+| 2026-10-31 | 덱을 `docs/`로 옮김 · 표지 글자 16pt 이상으로 · 슬라이드 출처 줄에서 기관명 제거([S6] 번호로 연결) |
 
 ## 만든 방법
 

@@ -12,5 +12,6 @@
 | 강의 스킬 · 수업·퀴즈 | 완료 | 2026-10-31 | SKILL.md + 블록 6개 + 퀴즈 10문항 + 과제. lint 오류 0 · 경고 0 → `forge/qa/skill_lint.txt` |
 | 강의 스킬 · 학습자 자료 | 완료 | 2026-10-31 | `GUIDE.md`, `README.md` |
 | 강의 스킬 · 배포 | **완료 · 승인 ③ public** | 2026-10-31 | https://github.com/supdrm54-eng/learn-robot-valuechain · https://supdrm54-eng.github.io/learn-robot-valuechain/ (built, HTTP 200) · 커밋 486e278 · 51파일 7.8MB · 공개 점검 0/0 · noreply 작성자 · zip `../learn-robot-valuechain.zip` |
+| 강의 덱 개정 | 완료 | 2026-10-31 | `docs/Robot_Value_Chain_Deck.pptx`·`.pdf`로 이동, 표지 칩·부제 16pt(템플릿 복사본 조정), 출처 줄 "KMA" 제거. QA: 16pt 미만 0 · facts에 없는 숫자 0 · 겹침 통과 · 기관명 0 |
 | 강의 스킬 · 배우기·공유 | 다음 | | 직접 수강, 동료 공유 |
 | 강의 스킬 · 실습 MVP | 완료 · 승인 ② | 2026-10-31 | `assets/answers/build_answers.py` → 산출물 6종·대시보드·expected.json(16값). verify 16/16 · 본문 16/16. 대시보드: 콘솔 오류 0, 375px 가로 스크롤 없음, [S#] 17개. 검산 중 고침: B5 퀴즈 8년 계산 117.5%, 미확보 목록 오탐(S3) |

@@ -105,10 +105,10 @@ function cover(s,o){
   rect(s,0,0,13.333,7.5,C.navy);
   const cw=o.chipW||2.95;
   rect(s,LX,1.55,cw,0.52,C.orange);
-  s.addText(o.chip,{x:LX,y:1.55,w:cw,h:0.52,align:"center",valign:"middle",fontFace:F,fontSize:14,bold:true,color:C.white});
+  s.addText(o.chip,{x:LX,y:1.55,w:cw,h:0.52,align:"center",valign:"middle",fontFace:F,fontSize:16,bold:true,color:C.white});   // 16pt 하한(이 덱 요청)
   s.addText(o.title,{x:LX,y:2.25,w:CW,h:1.05,fontFace:F,fontSize:46,bold:true,color:C.white});
   s.addText(o.sub1,{x:LX,y:3.45,w:CW,h:0.5,fontFace:F,fontSize:20,bold:true,color:C.coverSub});
-  if(o.sub2) s.addText(o.sub2,{x:LX,y:3.95,w:CW,h:0.42,fontFace:F,fontSize:15,color:C.coverSub2});
+  if(o.sub2) s.addText(o.sub2,{x:LX,y:3.95,w:CW,h:0.42,fontFace:F,fontSize:16,color:C.coverSub2});   // 16pt 하한(이 덱 요청)
   s.addShape(p.ShapeType.line,{x:LX,y:4.55,w:3.7,h:0,line:{color:C.orange,width:3}});
   s.addText(o.desc,{x:LX,y:4.85,w:CW-0.5,h:1.0,fontFace:F,fontSize:14.5,color:C.coverSub,lineSpacingMultiple:1.18});
 }
